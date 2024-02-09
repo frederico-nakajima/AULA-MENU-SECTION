@@ -1,0 +1,51 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position: fixed;
+   
+}
+
+
+header nav{
+    align-self: center;
+    justify-self: center;
+   
+    
+
+}
+
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+    
+    
+}
+header nav ul li a{
+    background-color: rgba(0, 0, 0, 0.361);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size:25px ;
+   
+
+}
+section{
+    width: 100vw;
+    height: 500px;
+    border: 1px solid black;
+    padding-top: 50px;
+   
+}
+section:nth-child(even){
+    background-color: rgba(0, 0, 255, 0.541);
+}
