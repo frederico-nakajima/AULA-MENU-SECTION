@@ -3,47 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    width: 100vw;
-    height: 50px;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+nav{
+    background-color:white;
     position: fixed;
-   
-}
-
-
-header nav{
-    align-self: center;
-    justify-self: center;
-   
     
-
 }
 
-
-header nav ul li{
+nav li{
     list-style: none;
-    display: inline;
+    display: inline-block;
     
     
 }
-header nav ul li a{
+nav li a{
     background-color: rgba(0, 0, 0, 0.361);
     padding: 10px;
-    margin: 10px;
     text-decoration: none;
     font-size:25px ;
+    display: inline-block;
+    color: white;
    
 
 }
+nav li a:hover{
+    background-color: black;
+}
+
 section{
     width: 100vw;
     height: 500px;
     border: 1px solid black;
     padding-top: 50px;
+    font-size:25px ;
+    
    
 }
 section:nth-child(even){
